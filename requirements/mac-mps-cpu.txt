@@ -16,3 +16,4 @@ scipy # LMSDiscreteScheduler
 
 opencolorio==2.3.2 # color management
 matplotlib
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
