@@ -6,7 +6,7 @@ huggingface_hub
 controlnet-aux==0.0.7
 
 torch-directml
-torch==2.3.1
+torch==2.9.0
 
 # Original SD checkpoint conversion
 pytorch-lightning
@@ -17,3 +17,5 @@ scipy # LMSDiscreteScheduler
 
 opencolorio==2.3.2 # color management
 matplotlib
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
